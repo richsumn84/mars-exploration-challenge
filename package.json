@@ -1,0 +1,33 @@
+{
+	"name": "mars-exploration-challenge",
+	"version": "1.0.0",
+	"description": "Mars Exploration Challenge",
+	"engines": {
+		"node": ">=8"
+	},
+	"main": "index.js",
+	"scripts": {
+		"check-modules": "if [ ! -d 'node_modules/' ]; then npm i; fi",
+		"prelocal": "npm run check-modules",
+		"local": "nodemon .",
+		"prestart": "npm run check-modules",
+		"start": "node .",
+		"prelint": "npm run check-modules",
+		"lint": "eslint . --fix",
+		"Challenge": "mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://henriquecarv@github.com/henriquecarv/mars-exploration-challenge.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "UNLICENSED",
+	"homepage": "https://github.com/henriquecarv/mars-exploration-challenge#readme",
+	"devDependencies": {
+		"eslint": "^5.2.0",
+		"eslint-config-google": "^0.9.1",
+		"mocha": "^5.2.0",
+		"nodemon": "^1.18.3"
+	}
+}
