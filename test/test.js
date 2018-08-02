@@ -1,4 +1,5 @@
 const assert = require('assert');
+const io = require('./../src/util/IO');
 
 describe('String', () => {
 	describe('hello()', () => {
