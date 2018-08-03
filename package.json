@@ -25,6 +25,7 @@
 	"license": "UNLICENSED",
 	"homepage": "https://github.com/henriquecarv/mars-exploration-challenge#readme",
 	"devDependencies": {
+		"babel-eslint": "^8.2.6",
 		"eslint": "^5.2.0",
 		"eslint-config-google": "^0.9.1",
 		"mocha": "^5.2.0",

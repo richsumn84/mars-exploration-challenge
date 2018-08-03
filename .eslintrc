@@ -5,13 +5,13 @@
 		"node": true
 	},
 	"extends": ["eslint:recommended", "google"],
-	"parserOptions": {
-		"ecmaVersion": 6
-	},
+	"parser": "babel-eslint",
 	"rules": {
 		"indent": [2, "tab"],
 		"no-tabs": 0,
 		"require-jsdoc": 0,
-		"no-console": 0	
+		"no-console": 0,
+		"no-undef": 0,
+		"max-len": 0
 	}
 }

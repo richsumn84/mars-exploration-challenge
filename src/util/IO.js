@@ -13,17 +13,18 @@ const readFile = () => {
 			fs.read(fd, buffer, 0, buffer.length, 0, (err, bytes) => {
 				if (err) reject(err);
 
-				if (bytes > 0)
+				if (bytes > 0) {
 					resolve(
 						buffer
 							.slice(0, bytes)
 							.toString()
 							.split('\n')
 					);
+				}
 				resolve([]);
 			});
 		});
 	});
 };
 
-module.exports = { readFile };
+module.exports = {readFile};

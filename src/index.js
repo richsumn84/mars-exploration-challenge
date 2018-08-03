@@ -6,7 +6,11 @@ const split = require('./util/Split');
 	try {
 		const commands = await io.readFile();
 
-		console.log(split.devices(commands));
+		const devices = split.devices(commands);
+
+		devices.map((device) => {
+			console.log(device.finalPosition);
+		});
 	} catch (err) {
 		throw err;
 	}
