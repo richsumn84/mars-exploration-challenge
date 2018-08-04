@@ -13,6 +13,8 @@ A set of rover devices was sent to Mars by NASA and it's going to land in a upla
 
 The position and direction of a rover, are represented by a combination of coordinates `x,y` and a letter representing a cardinal direction to which the rover points to, according to the compass rose.
 
+![Compass Rose](./img/compass_rose.png)
+
 The area is divided in a mesh to simplify navigation. An example position would be `(0,0,N)`, indicating that the rover is located at the lower left area and pointing north.
 
 In order to control the rovers, NASA sends a simple sequence of letters. Possible letters are: `"L","R","M"`. `"L"` and `"R"` makes the rover turns 90 degrees to the left or right, respectively, without moving the rover. `"M"` moves the rover one step in the mesh, keeping the same direction.
