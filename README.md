@@ -50,6 +50,7 @@ The output must have a line for each rover, with the same entry order, indicatin
 * 1 3 N
 * 5 1 E
 
+:copyright: Copyright Xerpa
 ---
 
 ## Overview
