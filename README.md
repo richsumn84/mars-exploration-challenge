@@ -3,14 +3,14 @@
 [![LICENSE](https://img.shields.io/github/license/henriquecarv/mars-exploration-challenge.svg)](./LICENSE)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=henriquecarv/mars-exploration-challenge)](https://dependabot.com)
 
-### Rules
+## Rules
+
 * You cannot use external frameworks.
 * Use one of these programming languages: Elixir, Erlang, Clojure, Haskell, JavaScript, Java, Ruby, Python, Scala.
 * The output must be printed in the terminal (CLI) or saved in a file. Follow the pattern described at the end of the challenge.
 * The input must be read from a file or parameters through the CLI.
 
-
-### Context
+## Context
 
 A set of rover devices was sent to Mars by NASA and it's going to land in a upland area of the planet. This area is rectangular and must be explored by the rovers for the cameras to be able to have a full view of the area, sending images back to earth.
 
@@ -26,7 +26,7 @@ The north point of `(x,y)` is always `(x,y+1)`.
 
 To solve this problem, you have to create a program for processing a series of instructions sent to the rovers exploring Mars. Follow the input and output formats.
 
-### Input
+## Input
 
 The first data entry is the upper right corner coordinate in the mesh. Keep in mind that the lower left will always be `(0,0)`.
 
@@ -37,7 +37,7 @@ The other entries will be information for the allocated rovers. Each rover is re
 
 A position is represented by two integers `(X Y)` and a letter, separated by spaces. Each rover will be sequentially controlled, which means that a second rover will only move when the first have finished its moves.
 
-#### Example:
+### Example:
 
 * 5 5
 * 1 2 N
@@ -49,7 +49,6 @@ A position is represented by two integers `(X Y)` and a letter, separated by spa
 
 The output must have a line for each rover, with the same entry order, indicating its final coordinates and direction.
 
-#### Example:
 * 1 3 N
 * 5 1 E
 
@@ -57,19 +56,22 @@ The output must have a line for each rover, with the same entry order, indicatin
 ---
 
 ## Overview
-* Input entries can be found and edited on:
-[input_file](/src/doc/input.txt)
+
+* Input entries can be found and edited on: [input_file](/src/doc/input.txt)
 * The results will be displayed on the console.
 
 ## System Requirements
+
 * **[NodeJS](https://nodejs.org/en/)** (version >= 8).
 
 ## Installing
+
 * ```npm install```
 
 ## Running Application
+
 * ```npm start```
 
 ## Running Unit Tests
-* ```npm test```
 
+* ```npm test```
