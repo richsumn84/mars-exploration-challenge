@@ -1,5 +1,8 @@
 # Mars Exploration Challenge
 
+[![LICENSE](https://img.shields.io/github/license/henriquecarv/mars-exploration-challenge.svg)](./LICENSE)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=henriquecarv/mars-exploration-challenge)](https://dependabot.com)
+
 ### Rules
 * You cannot use external frameworks.
 * Use one of these programming languages: Elixir, Erlang, Clojure, Haskell, JavaScript, Java, Ruby, Python, Scala.
